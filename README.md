@@ -7,6 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 ## Acerca del proyecto
+
 La problemática ocasionada por la pandemia del covid que generó un incremento de contagios y la muerte de millones de personas en el mundo, sirve de base line para generar un proyecto que permita realizar el seguimiento online de pacientes diagnosticados con la enfermedad.
 El software permitirá en su primera versión a los usuarios conectarse con los médicos para analizar su evolución en base a los signos vitales de temperatura, frecuencia cardiaca y saturación de oxigeno.
 

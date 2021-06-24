@@ -15,8 +15,7 @@ class CreateMedicsTable extends Migration
     {
         Schema::create('medics', function (Blueprint $table) {
             $table->id();
-            $table->BigInteger('user_id');
-            $table->foreign('user_id')->references('id')->on('users');
+            $table->foreignId('user_id')->references('id')->on('users');
             $table->string('ci');
             $table->string('names');
             $table->string('adress');

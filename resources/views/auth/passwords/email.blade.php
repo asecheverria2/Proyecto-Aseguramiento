@@ -4,8 +4,8 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Reset Password') }}</div>
+            <div class="card" style="margin-top: 110px; border-radius:40px;">
+                <div class="card-header text-center"><b style="color: #112570; font-family: Helvetica, sans-serif; font-size: 200%">{{ __('Resetear Contraseña') }}</b></div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -18,7 +18,7 @@
                         @csrf
 
                         <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
+                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('Correo Electrónico') }}</label>
 
                             <div class="col-md-6">
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
@@ -34,7 +34,7 @@
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
-                                    {{ __('Send Password Reset Link') }}
+                                    {{ __('Enviar correo de Reseteo de Contraseña') }}
                                 </button>
                             </div>
                         </div>
